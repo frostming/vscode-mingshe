@@ -1,0 +1,35 @@
+{
+  "name": "vscode-mingshe",
+  "displayName": "vscode-mingshe",
+  "description": "VSCode language support for MingShe",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "mingshe",
+        "aliases": [
+          "MingShe",
+          "mingshe"
+        ],
+        "extensions": [
+          ".she"
+        ],
+        "firstLine": "^#!\\s*/?.*\\bmingshe\\b",
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "mingshe",
+        "scopeName": "source.mingshe",
+        "path": "./syntaxes/mingshe.tmLanguage"
+      }
+    ]
+  }
+}
