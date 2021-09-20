@@ -2,6 +2,11 @@
   "name": "vscode-mingshe",
   "displayName": "vscode-mingshe",
   "description": "VSCode language support for MingShe",
+  "publisher": "frostming",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frostming/vscode-mingshe"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.60.0"
